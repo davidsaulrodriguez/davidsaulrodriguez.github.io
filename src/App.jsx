@@ -4,9 +4,13 @@ import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
 import About from './pages/About/About';
 import { Route, Switch } from 'react-router-dom';
-import { CssBaseline, Container } from '@material-ui/core';
+import {
+  CssBaseline,
+  createMuiTheme,
+  ThemeProvider,
+  Container,
+} from '@material-ui/core';
 import Nav from './components/Navigation/Nav';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core';
 
 const theme = createMuiTheme({
   typography: {
