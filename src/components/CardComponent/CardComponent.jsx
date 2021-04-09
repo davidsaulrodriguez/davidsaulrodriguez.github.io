@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import {
+  Button,
   Card,
-  // CardActionArea,
-  // CardActions,
+  CardActions,
   CardContent,
   CardHeader,
   CardMedia,
-  // Typography,
+  Link,
 } from '@material-ui/core';
 import ProjectDescription from '../ProjectDescription/ProjectDescription';
 
@@ -16,6 +16,7 @@ export class CardComponent extends Component {
     // eslint-disable-next-line no-console
     console.log(this.props);
   }
+
   render() {
     return (
       <Card>
@@ -28,6 +29,31 @@ export class CardComponent extends Component {
         <CardContent>
           <ProjectDescription description={this.props.description} />
         </CardContent>
+        <CardActions>
+          {this.props.sourceCode ? (
+            <Button
+              component={Link}
+              href={this.props.sourceCode}
+              target='_blank'
+              rel='noopener'
+              variant='contained'
+              color='primary'>
+              Source Code
+            </Button>
+          ) : null}
+
+          {this.props.liveSite ? (
+            <Button
+              component={Link}
+              href={this.props.liveSite}
+              target='_blank'
+              rel='noopener'
+              variant='outlined'
+              color='primary'>
+              Live Site
+            </Button>
+          ) : null}
+        </CardActions>
       </Card>
     );
   }

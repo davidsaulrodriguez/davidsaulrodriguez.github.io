@@ -14,6 +14,8 @@ const projectConfig = [
     imgHeight: '570',
     description:
       'This is a group project application that uses the GitHub API to create an interactive and beautiful profile page with your GitHub information.',
+    sourceCode: 'https://github.com/davidsaulrodriguez/showcase',
+    liveSite: 'https://davidsaulrodriguez.github.io/showcase',
   },
   {
     id: 2,
@@ -23,6 +25,8 @@ const projectConfig = [
     imgHeight: '836',
     description:
       'OrgChart is an employee directory built using React and Material-UI. With this emplyoee directory you can sort and filter the data that is called from the RandomUser API and even hide columns to show only the data you want!',
+    sourceCode: 'https://github.com/davidsaulrodriguez/OrgChart',
+    liveSite: 'https://davidsaulrodriguez.github.io/orgchart',
   },
   {
     id: 3,
@@ -33,6 +37,8 @@ const projectConfig = [
     imgHeight: '514',
     description:
       'Project Purple Planet is a Full Stack Web Application and project based task manager that is built using MaterializeCSS and HandlebarsJS. It also uses PassportJS for user account signup and login authentication. It even has a protected API that requires you to be logged in to make API calls.',
+    sourceCode: 'https://github.com/davidsaulrodriguez/project-purple-planet',
+    liveSite: 'https://purple-planet.herokuapp.com/',
   },
   {
     id: 4,
@@ -43,6 +49,8 @@ const projectConfig = [
     imgHeight: '633',
     description:
       'This is a Full Stack Web Application and GitHub repository template I created for myself that utilizes the MERN (MongoDB, Express, React and NodeJS) stack... I create this project as a way to lessen the time needed to get started with both Homework and Group Projects during my Coing Bootcamp cohort... This project comes complete with a starter API structure to help you quickly get started with your next project.',
+    sourceCode: 'https://github.com/davidsaulrodriguez/mern-stack-template',
+    liveSite: '',
   },
   {
     id: 5,
@@ -53,6 +61,8 @@ const projectConfig = [
     imgHeight: '1115',
     description:
       "This single page application that is built with MaterializeCSS and JQuery. It uses the OpenWeatherAPI to query the current day's weather and give you the forecast for the next 5 days along with it. You can use this app by specifiying in the search bar the location you would like to check the weather in. This app's search parameters are limited to the United States and gives you the ability to search via zipcode or City, State combination.",
+    sourceCode: 'https://github.com/davidsaulrodriguez/Nimbus',
+    liveSite: 'https://nimbus.bsdadm.com',
   },
   {
     id: 6,
@@ -61,7 +71,10 @@ const projectConfig = [
       'A simple quiz app made with HTML5, CSS3 and vanilla JavaScript.',
     image: simpleJsQuizImg,
     imgHeight: '703',
-    description: '',
+    description:
+      "This project was a homework assignment that had to be built from scratch. It's a timed JavaScript quiz about JavaScript. It uses localstorage to save your score and to retrieve the top 10 highest scores. This app is build in pure HTML, CSS and JavaScript.",
+    sourceCode: 'https://github.com/davidsaulrodriguez/Simple-JS-Quiz',
+    liveSite: 'https://davidsaulrodriguez.github.io/Simple-JS-Quiz',
   },
 ];
 

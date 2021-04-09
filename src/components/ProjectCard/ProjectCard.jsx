@@ -1,7 +1,15 @@
 import React from 'react';
 import CardComponent from '../CardComponent/CardComponent';
 
-const ProjectCard = ({ title, subheader, image, imgHeight, description }) => {
+const ProjectCard = ({
+  title,
+  subheader,
+  image,
+  imgHeight,
+  description,
+  sourceCode,
+  liveSite,
+}) => {
   return (
     <CardComponent
       title={title}
@@ -9,6 +17,8 @@ const ProjectCard = ({ title, subheader, image, imgHeight, description }) => {
       image={image}
       height={imgHeight}
       description={description}
+      sourceCode={sourceCode}
+      liveSite={liveSite}
     />
   );
 };

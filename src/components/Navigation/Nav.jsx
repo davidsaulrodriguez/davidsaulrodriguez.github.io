@@ -38,15 +38,13 @@ const Nav = () => {
           ) : (
             <>
               {navItems.map((navLink, key) => {
-                const { linkTitle, pageURL, target, rel } = navLink;
+                const { linkTitle, pageURL } = navLink;
                 return (
                   <Button
                     key={key}
                     color='inherit'
                     className={classes.menuButton}
                     component={RouterLink}
-                    target={target}
-                    rel={rel}
                     to={pageURL}
                     title={linkTitle}>
                     {linkTitle}

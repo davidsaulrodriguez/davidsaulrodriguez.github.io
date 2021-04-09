@@ -17,7 +17,16 @@ const Projects = () => {
       className={classes.myMasonryGrid}
       columnClassName={classes.myMasonryGridColumn}>
       {projects.map(
-        ({ title, subheader, image, imgHeight, id, description }) => (
+        ({
+          title,
+          subheader,
+          image,
+          imgHeight,
+          id,
+          description,
+          sourceCode,
+          liveSite,
+        }) => (
           <div className={classes.myMasonryGridColumnDiv} key={id}>
             <ProjectCard
               title={title}
@@ -25,6 +34,10 @@ const Projects = () => {
               image={image}
               imgHeight={imgHeight}
               description={description}
+              sourceCode={sourceCode}
+              liveSite={liveSite}
+              target='_blank'
+              rel='noopener'
             />
           </div>
         )
