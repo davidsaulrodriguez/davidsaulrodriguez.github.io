@@ -13,8 +13,6 @@ import ProjectDescription from '../ProjectDescription/ProjectDescription';
 export class CardComponent extends Component {
   constructor(props) {
     super(props);
-    // eslint-disable-next-line no-console
-    console.log(this.props);
   }
 
   render() {
