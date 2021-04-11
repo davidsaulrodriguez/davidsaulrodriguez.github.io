@@ -6,9 +6,13 @@ const Home = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <Typography variant='h2'>David Rodriguez</Typography>
+      <Typography variant='h2' align='center'>
+        David Rodriguez
+      </Typography>
 
-      <Typography variant='h5'>Full Stack Web Developer</Typography>
+      <Typography variant='h5' align='center'>
+        Full Stack Web Developer
+      </Typography>
     </div>
   );
 };
