@@ -2,21 +2,21 @@
 
 <span align="center">
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/davidsaulrodriguez/personal-portfolio)
-[![Build Status](https://travis-ci.com/davidsaulrodriguez/personal-portfolio.svg?branch=main)](https://travis-ci.com/davidsaulrodriguez/personal-portfolio)
-[![GitHub license](https://img.shields.io/github/license/davidsaulrodriguez/personal-portfolio)](https://github.com/davidsaulrodriguez/personal-portfolio)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/davidsaulrodriguez/davidsaulrodriguez.github.io)
+[![Build Status](https://travis-ci.com/davidsaulrodriguez/davidsaulrodriguez.github.io.svg?branch=main)](https://travis-ci.com/davidsaulrodriguez/davidsaulrodriguez.github.io)
+[![GitHub license](https://img.shields.io/github/license/davidsaulrodriguez/davidsaulrodriguez.github.io)](https://github.com/davidsaulrodriguez/davidsaulrodriguez.github.io)
 
 ---
 
-[![GitHub issues](https://img.shields.io/github/issues/davidsaulrodriguez/personal-portfolio)](https://github.com/davidsaulrodriguez/personal-portfolio/issues)
-[![GitHub forks](https://img.shields.io/github/forks/davidsaulrodriguez/personal-portfolio)](https://github.com/davidsaulrodriguez/personal-portfolio/network)
-[![GitHub stars](https://img.shields.io/github/stars/davidsaulrodriguez/personal-portfolio)](https://github.com/davidsaulrodriguez/personal-portfolio/stargazers)
-![GitHub contributors](https://img.shields.io/github/contributors/davidsaulrodriguez/personal-portfolio)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=davidsaulrodriguez_personal-portfolio&metric=bugs)](https://sonarcloud.io/dashboard?id=davidsaulrodriguez_personal-portfolio)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=davidsaulrodriguez_personal-portfolio&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=davidsaulrodriguez_personal-portfolio)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=davidsaulrodriguez_personal-portfolio&metric=security_rating)](https://sonarcloud.io/dashboard?id=davidsaulrodriguez_personal-portfolio)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=davidsaulrodriguez_personal-portfolio&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=davidsaulrodriguez_personal-portfolio)
-![GitHub commits since latest release (by SemVer)](https://img.shields.io/github/commits-since/davidsaulrodriguez/personal-portfolio/latest/main)
+[![GitHub issues](https://img.shields.io/github/issues/davidsaulrodriguez/davidsaulrodriguez.github.io)](https://github.com/davidsaulrodriguez/davidsaulrodriguez.github.io/issues)
+[![GitHub forks](https://img.shields.io/github/forks/davidsaulrodriguez/davidsaulrodriguez.github.io)](https://github.com/davidsaulrodriguez/davidsaulrodriguez.github.io/network)
+[![GitHub stars](https://img.shields.io/github/stars/davidsaulrodriguez/davidsaulrodriguez.github.io)](https://github.com/davidsaulrodriguez/davidsaulrodriguez.github.io/stargazers)
+![GitHub contributors](https://img.shields.io/github/contributors/davidsaulrodriguez/davidsaulrodriguez.github.io)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=davidsaulrodriguez_davidsaulrodriguez.github.io&metric=bugs)](https://sonarcloud.io/dashboard?id=davidsaulrodriguez_davidsaulrodriguez.github.io)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=davidsaulrodriguez_davidsaulrodriguez.github.io&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=davidsaulrodriguez_davidsaulrodriguez.github.io)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=davidsaulrodriguez_davidsaulrodriguez.github.io&metric=security_rating)](https://sonarcloud.io/dashboard?id=davidsaulrodriguez_davidsaulrodriguez.github.io)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=davidsaulrodriguez_davidsaulrodriguez.github.io&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=davidsaulrodriguez_davidsaulrodriguez.github.io)
+![GitHub commits since latest release (by SemVer)](https://img.shields.io/github/commits-since/davidsaulrodriguez/davidsaulrodriguez.github.io/latest/main)
 
 </span>
 
@@ -43,8 +43,8 @@ Whether you are starting an online only business or bringing your brick and mort
 [Download the zip][archive] or clone this project.
 
 ```shell
-git clone https://github.com/davidsaulrodriguez/personal-portfolio.git
-cd personal-portfolio/
+git clone https://github.com/davidsaulrodriguez/davidsaulrodriguez.github.io.git
+cd davidsaulrodriguez.github.io/
 ```
 
 ## Dependencies
@@ -58,6 +58,7 @@ cd personal-portfolio/
 - "@testing-library/user-event": "^12.8.3",
 - "react": "^17.0.2",
 - "react-dom": "^17.0.2",
+- "react-masonry-css": "^1.0.16",
 - "react-router-dom": "^5.2.0",
 - "react-scripts": "4.0.3",
 - "web-vitals": "^1.1.1"
@@ -77,7 +78,9 @@ cd personal-portfolio/
 - "eslint-plugin-prettier": "^3.3.1",
 - "eslint-plugin-react": "^7.23.1",
 - "eslint-plugin-react-hooks": "^4.2.0",
+- "gh-pages": "^3.1.0",
 - "prettier": "^2.2.1",
+- "react-test-renderer": "^17.0.2",
 - "ts-node": "^9.1.1",
 - "typescript": "^4.2.3"
 
@@ -140,7 +143,7 @@ Below is a list of the currently supported versions of this software.
 | Release |       Status       | Initial Release | Active LTS Start | Maintenance LTS Start | End of Life |
 | :-----: | :----------------: | :-------------: | :--------------: | :-------------------: | :---------: |
 | develop |      Unstable      |        -        |        -         |           -           |      -      |
-|   v1    | :heavy_check_mark: |   2021-04-06    |    2021-10-06    |           -           | 2022-04-06  |
+|   v1    | :heavy_check_mark: |   2021-04-11    |    2021-10-11    |           -           | 2022-04-11  |
 |   v2    |   :construction:   |   2022-04-01    |    2022-10-01    |      2023-04-01       | 2024-04-01  |
 
 You can view the Status Key Map and software support model [here][support].
@@ -159,11 +162,11 @@ Found a bug? Having an issue with this app? [Open a new issue][issues] here.
 
 This project and all of its source code is released and permissively licensed under the [BSD 2 Clause][license] license.
 
-[archive]: https://github.com/davidsaulrodriguez/personal-portfolio/archive/main.zip
+[archive]: https://github.com/davidsaulrodriguez/davidsaulrodriguez.github.io/archive/main.zip
 [mongodb]: https://www.mongodb.com/try/download/community
 [nodejs]: https://nodejs.com
 [support]: ./SLC.md
 [contrib]: ./CONTRIBUTING.md
 [branching]: ./docs/Branching_Model.md
-[issues]: https://github.com/davidsaulrodriguez/personal-portfolio/issues/new/choose
+[issues]: https://github.com/davidsaulrodriguez/davidsaulrodriguez.github.io/issues/new/choose
 [license]: ./LICENSE

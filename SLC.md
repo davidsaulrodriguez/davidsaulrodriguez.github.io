@@ -5,7 +5,7 @@ Below is a list of the currently supported versions of this software. You can vi
 | Release |       Status       | Initial Release | Active LTS Start | Maintenance LTS Start | End of Life |
 | :-----: | :----------------: | :-------------: | :--------------: | :-------------------: | :---------: |
 | develop |      Unstable      |        -        |        -         |           -           |      -      |
-|   v1    | :heavy_check_mark: |   2021-04-06    |    2021-10-06    |           -           | 2022-04-06  |
+|   v1    | :heavy_check_mark: |   2021-04-11    |    2021-10-11    |           -           | 2022-04-11  |
 |   v2    |   :construction:   |   2022-04-01    |    2022-10-01    |      2023-04-01       | 2024-04-01  |
 
 ## Status Key Map
