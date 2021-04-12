@@ -36,8 +36,6 @@ const Projects = () => {
               description={description}
               sourceCode={sourceCode}
               liveSite={liveSite}
-              target='_blank'
-              rel='noopener'
             />
           </div>
         )
