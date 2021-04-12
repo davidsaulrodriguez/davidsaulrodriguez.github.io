@@ -3,6 +3,7 @@ import Home from './pages/Home/Home';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
 import About from './pages/About/About';
+import Footer from './components/Footer/Footer';
 import { Route, Switch } from 'react-router-dom';
 import {
   CssBaseline,
@@ -48,6 +49,7 @@ function App() {
             />
           </Switch>
         </Container>
+        <Footer />
       </ThemeProvider>
     </>
   );
