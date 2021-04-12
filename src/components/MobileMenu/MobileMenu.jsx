@@ -14,7 +14,6 @@ import {
   Home as HomeIcon,
   FolderSpecial as ProjectsIcon,
   Fingerprint as AboutIcon,
-  Contacts as ContactIcon,
   Menu as MenuIcon,
 } from '@material-ui/icons';
 import { Typography } from '@material-ui/core';
@@ -37,7 +36,6 @@ const MobileMenu = () => {
     { linkTitle: 'Home', pageURL: '/', icon: <HomeIcon /> },
     { linkTitle: 'Projects', pageURL: '/projects', icon: <ProjectsIcon /> },
     { linkTitle: 'About', pageURL: '/about', icon: <AboutIcon /> },
-    { linkTitle: 'Contact', pageURL: '/contact', icon: <ContactIcon /> },
   ];
 
   const toggleDrawer = (anchor, open) => (event) => {
