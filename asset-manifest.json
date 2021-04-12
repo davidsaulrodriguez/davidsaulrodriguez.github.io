@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f420b3e6.chunk.css",
+    "main.js": "/static/js/main.5c2c5814.chunk.js",
+    "main.js.map": "/static/js/main.5c2c5814.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bdab3ec9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bdab3ec9.js.map",
+    "static/js/2.6baa2eb8.chunk.js": "/static/js/2.6baa2eb8.chunk.js",
+    "static/js/2.6baa2eb8.chunk.js.map": "/static/js/2.6baa2eb8.chunk.js.map",
+    "static/js/3.8a6c2506.chunk.js": "/static/js/3.8a6c2506.chunk.js",
+    "static/js/3.8a6c2506.chunk.js.map": "/static/js/3.8a6c2506.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f420b3e6.chunk.css.map": "/static/css/main.f420b3e6.chunk.css.map",
+    "static/js/2.6baa2eb8.chunk.js.LICENSE.txt": "/static/js/2.6baa2eb8.chunk.js.LICENSE.txt",
+    "static/media/me.78484444.jpg": "/static/media/me.78484444.jpg",
+    "static/media/mernStackTemplate_card.505c1170.png": "/static/media/mernStackTemplate_card.505c1170.png",
+    "static/media/nimbus_card.b33ee10f.png": "/static/media/nimbus_card.b33ee10f.png",
+    "static/media/orgchart_card.61e4c3a9.png": "/static/media/orgchart_card.61e4c3a9.png",
+    "static/media/projectPurple_card.11de2a9c.png": "/static/media/projectPurple_card.11de2a9c.png",
+    "static/media/showcase_card.af5ee181.png": "/static/media/showcase_card.af5ee181.png",
+    "static/media/simpleJsQuiz_card.5f534c30.png": "/static/media/simpleJsQuiz_card.5f534c30.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdab3ec9.js",
+    "static/js/2.6baa2eb8.chunk.js",
+    "static/css/main.f420b3e6.chunk.css",
+    "static/js/main.5c2c5814.chunk.js"
+  ]
+}
