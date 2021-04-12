@@ -19,7 +19,6 @@ const Nav = () => {
     { linkTitle: 'Home', pageURL: '/' },
     { linkTitle: 'Projects', pageURL: '/projects' },
     { linkTitle: 'About', pageURL: '/about' },
-    { linkTitle: 'Contact', pageURL: '/contact' },
   ];
 
   return (
